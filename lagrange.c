@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<conio.h>
 void main(){
-	float x[10], y[10],sum=0,x1,p ;
-	int i,j,n;
+	float x[10], y[10],sum=0,x1,p,n ;
+	int i,j;
 	printf("enter no of data points\n");
-	scanf("%d", &n);
+	scanf("%f", &n);
 	printf("enter point at which you want to calculate interpolation\n");
 	scanf("%f", &x1);
 	for(i=1;i<=n;i++)
